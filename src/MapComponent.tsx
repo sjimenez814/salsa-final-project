@@ -20,7 +20,7 @@ const MapComponent: React.FC = () => {
                 style={{ height: '100%', width: '100%' }}
                 maxBounds={NYC_BOUNDS}  // Restrict panning to NYC area
                 maxBoundsViscosity={1.0} // Helps to keep the map locked within bounds
-                minZoom={12}  // Optionally set min zoom level
+                minZoom={11}  // Optionally set min zoom level
                 maxZoom={18}  // Optionally set max zoom level
             >
                 {/* Using OpenStreetMap tiles as the default layer */}
