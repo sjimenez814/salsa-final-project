@@ -7,6 +7,9 @@ import 'leaflet/dist/leaflet.css';
 import customIconUrl from '../../assets/music-icon.svg'; // Replace with the path to your custom icon
 import customShadowUrl from 'leaflet/dist/images/marker-shadow.png'; // Optional: Leaflet default shadow
 
+// Import the markers data
+import { markers } from '../../data/Markers';
+
 // Define a custom Leaflet icon
 const customIcon = L.icon({
     iconUrl: customIconUrl,
@@ -25,25 +28,6 @@ const NYC_BOUNDS: L.LatLngBoundsLiteral = [
 ];
 
 const MapComponent: React.FC = () => {
-    // Hardcoded list of markers with LatLngTuple for position
-    const markers = [
-        {
-            position: [40.73061, -73.935242] as [number, number], // Ensure position is typed correctly
-            title: 'Venue 1',
-            location: 'Brooklyn, NY',
-            description: 'A nice venue with great music!',
-            imageUrl: 'https://via.placeholder.com/100', // Replace with a real image URL
-        },
-        {
-            position: [40.7527, -73.9772] as [number, number], // Ensure position is typed correctly
-            title: 'Venue 2',
-            location: 'Manhattan, NY',
-            description: 'Another awesome venue with live performances.',
-            imageUrl: 'https://via.placeholder.com/100', // Replace with a real image URL
-        },
-        // Add more markers here...
-    ];
-
     return (
         <div style={{ height: '100vh' }}>
             <MapContainer
