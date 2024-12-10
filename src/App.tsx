@@ -1,15 +1,10 @@
 import React from 'react';
 import 'leaflet/dist/leaflet.css';
-import './App.css'; // Optional, for styling
-import MapComponent from './MapComponent'; // Import MapComponent
+import './styles/App.css'; // Optional, for styling
+import AppRoutes from "./routes/AppRoutes";
 
 const App: React.FC = () => {
-  return (
-      <div className="App">
-        <h1>Interactive Map of NYC</h1>  {/* Title for the page */}
-        <MapComponent />  {/* Render the MapComponent */}
-      </div>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
