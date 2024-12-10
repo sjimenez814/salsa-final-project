@@ -1,0 +1,19 @@
+.popup-content {
+    width: 250px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.popup-content img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.popup-content h3 {
+    font-size: 9.2em;
+}
+
+.popup-content p {
+    font-size: 0.9em;
+}
