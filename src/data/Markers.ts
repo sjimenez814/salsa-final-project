@@ -15,7 +15,7 @@ export const markers = [
     This event provides a lens into both the cultural norms of the 90s and the broader significance of reggae music in promoting peace, love, and social commentary.`,
         images: [
             '/assets/biltmore-ballroom.png',
-            'https://via.placeholder.com/500x300', // Additional placeholder images
+            'https://64.media.tumblr.com/99a98143068744bef5becb3335f11f32/54c4ceeeda7367ee-b5/s500x750/f214d8d29082e0f607763b534da502f621d62699.jpg', // Additional placeholder images
             'https://via.placeholder.com/500x300',
         ], // Array of image URLs
     }

@@ -6,7 +6,6 @@ import 'leaflet/dist/leaflet.css';
 import '../../styles/Popup.css'
 
 // Import custom marker icons
-import customIconUrl from '../../assets/music-icon.svg'; // Replace with the path to your custom icon
 import customShadowUrl from 'leaflet/dist/images/marker-shadow.png'; // Optional: Leaflet default shadow
 
 // Import the markers data
@@ -14,7 +13,7 @@ import { markers } from '../../data/Markers';
 
 // Define a custom Leaflet icon
 const customIcon = L.icon({
-    iconUrl: customIconUrl,
+    iconUrl: process.env.PUBLIC_URL + '/assets/music-icon.svg',
     shadowUrl: customShadowUrl,
     iconSize: [35, 35], // Size of the icon
     iconAnchor: [12, 41], // Anchor point of the icon
@@ -78,7 +77,7 @@ const MapComponent: React.FC = () => {
                                 <h3>{marker.title}</h3>
                                 <p><strong>Location:</strong> {marker.location}</p>
 
-                                <div style={{ whiteSpace: 'pre-line' }}>
+                                <div className='scrollable-description'>
                                     {marker.description}
                                 </div>
                             </div>
