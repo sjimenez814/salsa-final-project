@@ -24,20 +24,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 300px;  /* Max width of the slide */
+    max-width: 350px;  /* Max width of the slide */
     max-height: 350px; /* Max height of the slide */
-    width: 100%; /* Allow it to shrink */
-    height: 100%; /* Allow it to shrink */
 }
 
-/* Ensures that the image fits within the max size without cutting off */
-.slick-cloned img, video{
-    height: 350px !important;
-    width: auto !important;
-    object-fit: scale-down !important;
-    display: block !important;
-    justify-self: center !important;
-}
+/*!* Ensures that the image fits within the max size without cutting off *!*/
+/*.slick-cloned img, video{*/
+/*    height: 350px !important;*/
+/*    width: auto !important;*/
+/*    object-fit: contain !important;*/
+/*    display: block !important;*/
+/*    justify-self: center !important;*/
+/*}*/
 
 
 /* Optional: style the dot indicators for navigation */

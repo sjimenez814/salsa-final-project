@@ -46,7 +46,11 @@ const MapComponent: React.FC = () => {
             return (
                 <video
                     controls
-                    style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
+                    style={{
+                        maxWidth: '100%',
+                        maxHeight: '100%',
+                        objectFit: 'scale-down',
+                    }}
                 >
                     <source src={mediaUrl} type={`video/${fileExtension}`} />
                     Your browser does not support the video tag.
@@ -59,9 +63,9 @@ const MapComponent: React.FC = () => {
                 src={mediaUrl}
                 alt="Media content"
                 style={{
-                    width: '100%',
-                    height: 'auto',
-                    objectFit: 'cover',
+                    maxWidth: '100%',
+                    maxHeight: '100%',
+                    objectFit: 'contain',
                 }}
             />
         );

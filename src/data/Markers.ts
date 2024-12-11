@@ -21,16 +21,18 @@ export const markers = [
     }
     ,
     {
-        position: [40.7527, -73.9772] as [number, number],
-        title: 'Venue 2',
-        location: 'Manhattan, NY',
-        description: `Venue 2 is a larger place with great acoustics.
-        
-        It hosts concerts, festivals, and other musical events. The venue also offers food and drinks during events.`,
+        position: [40.7313, -73.9826] as [number, number], // Approximate location for 181 2nd Avenue, East Village, NYC
+        title: 'Negril Nightclub',
+        location: '181 2nd Avenue, East Village, NYC',
+        description: `The Negril Nightclub was a legendary venue located in the basement of 181 2nd Avenue in the East Village, NYC. With a capacity of 200 people, this small but influential club was a hotspot for diverse crowds, with people from different backgrounds, religions, and ethnicities coming together to party.
+
+        Known for its exceptional advertising, the Negril Nightclub became a vital part of New York's nightlife scene. It helped popularize hip hop music, with events like "hip-hop nights" attracting new faces and fostering a unique cultural exchange.
+
+        The club’s impact on the rise of hip hop music in the U.S. is significant, as it provided a space where reggae-influenced hip hop artists could connect with the public and spread the genre across the country.`,
         images: [
-            'https://via.placeholder.com/500x300',
-            'https://via.placeholder.com/500x300',
-        ],
+            'https://media.villagepreservation.org/wp-content/uploads/2023/09/12151408/181-2nd-Ave-1975.jpg', // Replace with relevant images or use placeholders
+            'https://media.villagepreservation.org/wp-content/uploads/2023/09/12150923/1982-negrill-flier.jpg',
+        ],  // Array of image URLs
     },
     // Add more markers here...
 ];
