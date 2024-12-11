@@ -49,7 +49,7 @@ const MapComponent: React.FC = () => {
                     style={{
                         maxWidth: '100%',
                         maxHeight: '100%',
-                        objectFit: 'scale-down',
+                        objectFit: 'contain',
                     }}
                 >
                     <source src={mediaUrl} type={`video/${fileExtension}`} />

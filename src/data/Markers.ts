@@ -34,5 +34,15 @@ export const markers = [
             'https://media.villagepreservation.org/wp-content/uploads/2023/09/12150923/1982-negrill-flier.jpg',
         ],  // Array of image URLs
     },
+    {
+        position: [40.6755, -73.9532] as [number, number], // Approximate location for 750 Nostrand Ave, Brooklyn
+        title: 'Reggae Retro NYC Nightclub',
+        location: '750 Nostrand Ave, Brooklyn, NY',
+        description: `Reggae Retro NYC Nightclub is a prominent dancehall venue at the Crown Hill Theater, known for hosting reggae parties every first Saturday of each month for over 20 years. The DJ blends both older and newer reggae songs, offering a unique fusion of classic artists like Bob Marley and newer talents such as Chronixx. This long-running event is a key fixture in Brooklyn's reggae scene, drawing a wide range of attendees who share a love for the genre.`,
+        images: [
+            '/assets/reggae-retro-vid.mp4',  // Replace with actual image path
+            '/assets/reggae-retro-vid-2.mp4',
+        ],
+    },
     // Add more markers here...
 ];
