@@ -13,9 +13,9 @@ import { markers } from '../../data/Markers';
 
 // Define a custom Leaflet icon
 const customIcon = L.icon({
-    iconUrl: process.env.PUBLIC_URL + '/assets/music-icon.svg',
+    iconUrl: process.env.PUBLIC_URL + '/assets/jamaica.png',
     shadowUrl: customShadowUrl,
-    iconSize: [35, 35], // Size of the icon
+    iconSize: [45, 45], // Size of the icon
     iconAnchor: [12, 41], // Anchor point of the icon
     popupAnchor: [1, -34], // Popup position relative to the icon
 });

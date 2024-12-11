@@ -2,7 +2,7 @@
 
 export const markers = [
     {
-        position: [40.645042, -73.956345] as [number, number], // Approximate location for 2230 Church Ave, Brooklyn
+        position: [40.65028, -73.95747] as [number, number], // Approximate location for 2230 Church Ave, Brooklyn
         title: 'Biltmore Ballroom',
         location: '2230 Church Ave, Brooklyn, NY',
         description: `The Biltmore Ballroom was a notable venue in Brooklyn, NY, known for hosting reggae performances in the 90s. One such event featured Captain Remo, a reggae artist who toured extensively across the U.S., Europe, and other continents during this time. His music emphasized world peace and love, drawing comparisons to bands addressing social justice, such as Calle Trece.
@@ -21,7 +21,7 @@ export const markers = [
     }
     ,
     {
-        position: [40.7313, -73.9826] as [number, number], // Approximate location for 181 2nd Avenue, East Village, NYC
+        position: [40.73083, -73.98634] as [number, number], // Approximate location for 181 2nd Avenue, East Village, NYC
         title: 'Negril Nightclub',
         location: '181 2nd Avenue, East Village, NYC',
         description: `The Negril Nightclub was a legendary venue located in the basement of 181 2nd Avenue in the East Village, NYC. With a capacity of 200 people, this small but influential club was a hotspot for diverse crowds, with people from different backgrounds, religions, and ethnicities coming together to party.
@@ -35,7 +35,7 @@ export const markers = [
         ],  // Array of image URLs
     },
     {
-        position: [40.6755, -73.9532] as [number, number], // Approximate location for 750 Nostrand Ave, Brooklyn
+        position: [40.67303, -73.95033] as [number, number], // Approximate location for 750 Nostrand Ave, Brooklyn
         title: 'Reggae Retro NYC Nightclub',
         location: '750 Nostrand Ave, Brooklyn, NY',
         description: `Reggae Retro NYC Nightclub is a prominent dancehall venue at the Crown Hill Theater, known for hosting reggae parties every first Saturday of each month for over 20 years. The DJ blends both older and newer reggae songs, offering a unique fusion of classic artists like Bob Marley and newer talents such as Chronixx. This long-running event is a key fixture in Brooklyn's reggae scene, drawing a wide range of attendees who share a love for the genre.`,
