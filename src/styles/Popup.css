@@ -4,6 +4,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+    justify-content: center;
 }
 
 .leaflet-popup-content-wrapper {
@@ -32,4 +33,13 @@
 
 .slick-dots li button:before {
     color: #000; /* Color for the navigation dots */
+}
+
+.scrollable-description {
+    max-height: 200px; /* Set the maximum height for the scrollable area */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    border-radius: 4px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
 }
