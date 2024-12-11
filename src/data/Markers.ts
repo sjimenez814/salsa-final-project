@@ -66,5 +66,18 @@ export const markers = [
             '/assets/bb-king-2.png'
         ],
     },
+    {
+        position: [40.76770, -73.97452] as [number, number],
+        title: 'Schaefer Music Festival in Central Park',
+        location: 'Wollman Rink, Central Park, NYC',
+        description: `The Central Park Festival holds historical significance as it hosted Bob Marley’s performance during the 1975 Schaefer Music Festival, a pivotal moment for reggae in New York City. With ticket prices as low as one dollar, the event reflected the community-centric culture of Caribbean music, drawing diverse audiences to experience reggae’s distinctive syncopation and duple meter rhythms.
+
+This performance marked a unique moment for Lee Jaffe, the Wailers' harmonica player, who joined them for one of his few live appearances. Accompanied by two female singers, Marley delivered a show that defied contemporary skepticism about reggae’s reach. His influence on New York was further solidified when the mayor presented him with a "key to the city," symbolizing his positive cultural impact. This historic performance underscores Central Park’s role in promoting reggae and fostering its rise within the city’s vibrant music scene.`,
+        images: [
+            'https://i.ytimg.com/vi/fW4St80b4BU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBZZQ1So2WEc558GOa_4PmJc7oi9g',
+            'https://upload.wikimedia.org/wikipedia/en/a/a0/Schaef.jpg',
+            'https://upload.wikimedia.org/wikipedia/commons/c/c4/LARGE_AUDIENCE_AT_THE_SCHAEFER_BANDSTAND_IN_CENTRAL_PARK_DURING_A_CONCERT_BY_SINGER_JUDY_COLLINS_-_NARA_-_551670.jpg',
+        ],
+    },
     // Add more markers here...
 ];
