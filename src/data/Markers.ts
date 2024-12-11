@@ -92,5 +92,17 @@ The Kaya album, released earlier that year, offered a more laid-back and romanti
             'https://i0.wp.com/worldmusicviews.com/wp-content/uploads/2022/06/526331_430440833665834_633769223_n.jpeg?resize=300%2C189&ssl=1',
         ],
     },
+    {
+        position: [40.90570, -73.84971] as [number, number],
+        title: 'Wackie’s House of Music',
+        location: '4781 White Plains Road, Bronx, NY',
+        description: `[TBD]`,
+        images: [
+            'https://bullwackie.smokeyroom.net/images/whiteplains.png',
+            'https://enkismusicrecords.com/wp-content/uploads/2024/10/Wackies-House-of-Music-crew-Junior-Delahaye-Owen-Stewart-Dougie-Levy-Bullwackie-Jerry-Johnson.jpg',
+            'https://enkismusicrecords.com/wp-content/uploads/2024/10/Lloyd-Bullwackie-Barnes-at-Wackies-Reggae-Studio-1.jpg',
+            'https://static01.nyt.com/images/2009/04/13/nyregion/13reggae.span.jpg?quality=75&auto=webp',
+        ],
+    },
     // Add more markers here...
 ];

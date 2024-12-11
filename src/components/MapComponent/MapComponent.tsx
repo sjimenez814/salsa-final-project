@@ -75,11 +75,11 @@ const MapComponent: React.FC = () => {
         <div style={{ height: '100vh' }}>
             <MapContainer
                 center={NYC_POSITION}
-                zoom={13}
+                zoom={10}
                 style={{ height: '100%', width: '100%' }}
                 maxBounds={NYC_BOUNDS}
                 maxBoundsViscosity={1.0}
-                minZoom={11}
+                minZoom={10}
                 maxZoom={18}
             >
                 <TileLayer
