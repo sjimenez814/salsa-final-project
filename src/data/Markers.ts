@@ -79,5 +79,18 @@ This performance marked a unique moment for Lee Jaffe, the Wailers' harmonica pl
             'https://upload.wikimedia.org/wikipedia/commons/c/c4/LARGE_AUDIENCE_AT_THE_SCHAEFER_BANDSTAND_IN_CENTRAL_PARK_DURING_A_CONCERT_BY_SINGER_JUDY_COLLINS_-_NARA_-_551670.jpg',
         ],
     },
+    {
+        position: [40.75068, -73.99409] as [number, number],
+        title: 'Madison Square Garden',
+        location: 'New York, NY',
+        description: `On June 17, 1978, Bob Marley and The Wailers made their historic debut at Madison Square Garden during the *Kaya* Tour, marking a key moment in reggae's rise to global prominence. The 15-song setlist featured hits like *No Woman No Cry*, *Is This Love*, and *Jammin*, blending themes of love, resistance, and unity. Billboard Magazine praised Marley’s captivating stage presence, describing him as "visually the whole show."
+
+The Kaya album, released earlier that year, offered a more laid-back and romantic sound compared to the militant tone of *Exodus*, recorded simultaneously. Despite criticism for "going soft," *Kaya* solidified Marley’s return to Jamaica during the One Love Peace Concert and achieved significant acclaim, including UK chart success and U.S. gold certification. This MSG performance reflected Marley’s ability to connect with audiences worldwide, weaving his personal and political journeys into unforgettable music.`,
+        images: [
+            '/assets/marley-msg.png',
+            'https://www.concertarchives.org/image_uploads/photo/image/420004/large_The_Village_Voice_-_June_5_1978.jpg',
+            'https://i0.wp.com/worldmusicviews.com/wp-content/uploads/2022/06/526331_430440833665834_633769223_n.jpeg?resize=300%2C189&ssl=1',
+        ],
+    },
     // Add more markers here...
 ];
