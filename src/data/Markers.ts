@@ -104,5 +104,17 @@ The Kaya album, released earlier that year, offered a more laid-back and romanti
             'https://static01.nyt.com/images/2009/04/13/nyregion/13reggae.span.jpg?quality=75&auto=webp',
         ],
     },
+    {
+        position: [40.72182, -74.00860] as [number, number],
+        title: 'Wetlands Preserve',
+        location: '161 Hudson Street, Tribeca, NY',
+        description: `[TBD]`,
+        images: [
+            'https://relix.com/wp-content/uploads/2020/02/earthstation-1-700x585.jpg',
+            'https://vassifer.blogs.com/.a/6a00d8341c18b253ef026bdee9ddb2200c-600wi',
+            'https://tribecacitizen.com/wp-content/uploads/2014/10/Wetlands-crop.png',
+
+        ],
+    },
     // Add more markers here...
 ];
