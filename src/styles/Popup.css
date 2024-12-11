@@ -1,19 +1,35 @@
-.popup-content {
-    width: 250px;
-    padding: 10px;
-    font-family: Arial, sans-serif;
-}
+/* Add these styles to your CSS file (e.g., styles.css) */
 
 .popup-content img {
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
+    object-fit: cover;
 }
 
-.popup-content h3 {
-    font-size: 9.2em;
+.leaflet-popup-content-wrapper {
+    background: linear-gradient(to right, #00843E, #FFD700, #E31C23);
+    width: max-content;
 }
 
-.popup-content p {
-    font-size: 0.9em;
+
+/* Optional: style the slider */
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
+}
+
+.slick-prev, .slick-next {
+    font-size: 30px; /* Customize arrow size */
+    z-index: 1;
+}
+
+/* Optional: style the dot indicators for navigation */
+.slick-dots {
+    bottom: 10px;
+}
+
+.slick-dots li button:before {
+    color: #000; /* Color for the navigation dots */
 }

@@ -1,7 +1,9 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import Slider from 'react-slick';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import '../../styles/Popup.css'
 
 // Import custom marker icons
 import customIconUrl from '../../assets/music-icon.svg'; // Replace with the path to your custom icon
@@ -28,42 +30,57 @@ const NYC_BOUNDS: L.LatLngBoundsLiteral = [
 ];
 
 const MapComponent: React.FC = () => {
+    // Slick settings for the carousel
+    const sliderSettings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+
     return (
         <div style={{ height: '100vh' }}>
             <MapContainer
                 center={NYC_POSITION}
                 zoom={13}
                 style={{ height: '100%', width: '100%' }}
-                maxBounds={NYC_BOUNDS}  // Restrict panning to NYC area
-                maxBoundsViscosity={1.0} // Helps to keep the map locked within bounds
-                minZoom={11}  // Optionally set min zoom level
-                maxZoom={18}  // Optionally set max zoom level
+                maxBounds={NYC_BOUNDS}
+                maxBoundsViscosity={1.0}
+                minZoom={11}
+                maxZoom={18}
             >
-                {/* Using OpenStreetMap tiles as the default layer */}
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     attribution="&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors"
                 />
-                {/* Render all markers from the hardcoded array */}
                 {markers.map((marker, index) => (
                     <Marker key={index} position={marker.position} icon={customIcon}>
                         <Popup>
                             <div className="popup-content">
-                                {/* Photo Section */}
-                                <img
-                                    src={marker.imageUrl} // Use image URL from marker data
-                                    alt="Venue"
-                                    style={{ width: '100px', height: 'auto', marginBottom: '10px' }}
-                                />
+                                {/* Carousel / Image Scroll using react-slick */}
+                                <Slider {...sliderSettings}>
+                                    {marker.images.map((image, idx) => (
+                                        <div key={idx}>
+                                            <img
+                                                src={image}
+                                                alt={`Venue ${idx}`}
+                                                style={{
+                                                    width: '100%',
+                                                    height: 'auto',
+                                                    objectFit: 'cover',
+                                                }}
+                                            />
+                                        </div>
+                                    ))}
+                                </Slider>
 
-                                {/* Title */}
                                 <h3>{marker.title}</h3>
-
-                                {/* Location */}
                                 <p><strong>Location:</strong> {marker.location}</p>
 
-                                {/* Description / Text Information */}
-                                <p>{marker.description}</p>
+                                <div style={{ whiteSpace: 'pre-line' }}>
+                                    {marker.description}
+                                </div>
                             </div>
                         </Popup>
                     </Marker>
