@@ -55,5 +55,16 @@ export const markers = [
             'sample image',
         ],
     },
+    {
+        position: [40.75689, -73.98840] as [number, number],
+        title: 'BB King Blues Club',
+        location: '237 W 42nd St, Manhattan, NY',
+        description: `[TBD]`,
+        images: [
+            'https://www.eventbrite.com/blog/wp-content/uploads/2022/05/Reggae-Fest-NYC-2015-at-BB-Kings-scaled.jpg',
+            '/assets/bb-king(1).png',
+            '/assets/bb-king-2.png'
+        ],
+    },
     // Add more markers here...
 ];
