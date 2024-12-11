@@ -38,6 +38,35 @@ const MapComponent: React.FC = () => {
         slidesToScroll: 1,
     };
 
+    // Function to render image or video
+    const renderMedia = (mediaUrl: string) => {
+        const fileExtension = mediaUrl.split('.').pop()?.toLowerCase();
+
+        if (fileExtension === 'mp4' || fileExtension === 'webm' || fileExtension === 'ogg') {
+            return (
+                <video
+                    controls
+                    style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
+                >
+                    <source src={mediaUrl} type={`video/${fileExtension}`} />
+                    Your browser does not support the video tag.
+                </video>
+            );
+        }
+
+        return (
+            <img
+                src={mediaUrl}
+                alt="Media content"
+                style={{
+                    width: '100%',
+                    height: 'auto',
+                    objectFit: 'cover',
+                }}
+            />
+        );
+    };
+
     return (
         <div style={{ height: '100vh' }}>
             <MapContainer
@@ -59,17 +88,9 @@ const MapComponent: React.FC = () => {
                             <div className="popup-content">
                                 {/* Carousel / Image Scroll using react-slick */}
                                 <Slider {...sliderSettings}>
-                                    {marker.images.map((image, idx) => (
+                                    {marker.images.map((mediaUrl, idx) => (
                                         <div key={idx}>
-                                            <img
-                                                src={image}
-                                                alt={`Venue ${idx}`}
-                                                style={{
-                                                    width: '100%',
-                                                    height: 'auto',
-                                                    objectFit: 'cover',
-                                                }}
-                                            />
+                                            {renderMedia(mediaUrl)}
                                         </div>
                                     ))}
                                 </Slider>
