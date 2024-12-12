@@ -20,6 +20,9 @@ interface MarkerData {
     images: string[];
     location: string;
     description: string;
+    artists: string;
+    years: string;
+    impact: string;
     position: [number, number];
 }
 

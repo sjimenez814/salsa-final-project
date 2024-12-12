@@ -18,6 +18,9 @@ export const markers = [
             'https://64.media.tumblr.com/99a98143068744bef5becb3335f11f32/54c4ceeeda7367ee-b5/s500x750/f214d8d29082e0f607763b534da502f621d62699.jpg', // Additional placeholder images
             '/assets/Biltmore-Ballroom-vid.mp4',
         ], // Array of image URLs
+        artists: "TBD",
+        years: "TBD",
+        impact: "TBD",
     }
     ,
     {
@@ -33,6 +36,9 @@ export const markers = [
             'https://media.villagepreservation.org/wp-content/uploads/2023/09/12151408/181-2nd-Ave-1975.jpg', // Replace with relevant images or use placeholders
             'https://media.villagepreservation.org/wp-content/uploads/2023/09/12150923/1982-negrill-flier.jpg',
         ],  // Array of image URLs
+        artists: "TBD",
+        years: "TBD",
+        impact: "TBD",
     },
     {
         position: [40.67303, -73.95033] as [number, number], // Approximate location for 750 Nostrand Ave, Brooklyn
@@ -43,6 +49,9 @@ export const markers = [
             '/assets/reggae-retro-vid.mp4',  // Replace with actual image path
             '/assets/reggae-retro-vid-2.mp4',
         ],
+        artists: "TBD",
+        years: "TBD",
+        impact: "TBD",
     },
     {
         position: [40.72085 ,-74.00464] as [number, number], // Approximate location for 750 Nostrand Ave, Brooklyn
@@ -54,6 +63,9 @@ export const markers = [
             '/assets/reggae-lounge.png',
             'https://mylifeinconcert.com/wp-content/uploads/2014/03/Bad_Brains_Reggae_Lounge_1982.jpg',
         ],
+        artists: "TBD",
+        years: "TBD",
+        impact: "TBD",
     },
     {
         position: [40.75689, -73.98840] as [number, number],
@@ -65,6 +77,9 @@ export const markers = [
             '/assets/bb-king(1).png',
             '/assets/bb-king-2.png'
         ],
+        artists: "TBD",
+        years: "TBD",
+        impact: "TBD",
     },
     {
         position: [40.76770, -73.97452] as [number, number],
@@ -78,6 +93,9 @@ This performance marked a unique moment for Lee Jaffe, the Wailers' harmonica pl
             'https://upload.wikimedia.org/wikipedia/en/a/a0/Schaef.jpg',
             'https://upload.wikimedia.org/wikipedia/commons/c/c4/LARGE_AUDIENCE_AT_THE_SCHAEFER_BANDSTAND_IN_CENTRAL_PARK_DURING_A_CONCERT_BY_SINGER_JUDY_COLLINS_-_NARA_-_551670.jpg',
         ],
+        artists: "TBD",
+        years: "TBD",
+        impact: "TBD",
     },
     {
         position: [40.75068, -73.99409] as [number, number],
@@ -91,6 +109,9 @@ The Kaya album, released earlier that year, offered a more laid-back and romanti
             'https://www.concertarchives.org/image_uploads/photo/image/420004/large_The_Village_Voice_-_June_5_1978.jpg',
             'https://i0.wp.com/worldmusicviews.com/wp-content/uploads/2022/06/526331_430440833665834_633769223_n.jpeg?resize=300%2C189&ssl=1',
         ],
+        artists: "TBD",
+        years: "TBD",
+        impact: "TBD",
     },
     {
         position: [40.90570, -73.84971] as [number, number],
@@ -103,6 +124,9 @@ The Kaya album, released earlier that year, offered a more laid-back and romanti
             'https://enkismusicrecords.com/wp-content/uploads/2024/10/Lloyd-Bullwackie-Barnes-at-Wackies-Reggae-Studio-1.jpg',
             'https://static01.nyt.com/images/2009/04/13/nyregion/13reggae.span.jpg?quality=75&auto=webp',
         ],
+        artists: "TBD",
+        years: "TBD",
+        impact: "TBD",
     },
     {
         position: [40.72182, -74.00860] as [number, number],
@@ -115,6 +139,9 @@ The Kaya album, released earlier that year, offered a more laid-back and romanti
             'https://tribecacitizen.com/wp-content/uploads/2014/10/Wetlands-crop.png',
 
         ],
+        artists: "TBD",
+        years: "TBD",
+        impact: "TBD",
     },
     // Add more markers here...
 ];
