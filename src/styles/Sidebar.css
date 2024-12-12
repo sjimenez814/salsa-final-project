@@ -1,8 +1,8 @@
 .sidebar {
-    width: 300px;
-    background: linear-gradient(to bottom, #00843E, #FFD700, #E31C23); /* Jamaican rasta colors */
+    width: 30%;
+    background: linear-gradient(to right, #00843E, #FFD700, #E31C23); /* Jamaican rasta colors */
     border-right: 1px solid #ccc;
-    padding: 15px;
+    padding: 25px;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
@@ -11,21 +11,22 @@
 .sidebar-content {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Increased gap for better separation */
+    gap: 10px; /* Increased gap for better separation */
 }
 
 .venue-name {
     font-size: 2rem;
+    font-family: "Mukta Mahee";
     font-weight: bold;
-    color: white;
+    color: black;
     text-align: center;
 }
 
 .scrollable-description {
-    max-height: 100px;
-    overflow-y: auto;
+    max-height: 250px;
+    overflow-y: scroll;
     padding: 10px;
-    background-color: #fff;
+    background-color: rgba(255,255,255, 0.4);
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 0.9rem;
@@ -34,5 +35,5 @@
 .sidebar p {
     font-size: 1.1rem;
     font-weight: bold;
-    color: white;
+    color: black;
 }

@@ -21,22 +21,10 @@
 
 /* Style each slide */
 .slick-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 350px;  /* Max width of the slide */
-    max-height: 350px; /* Max height of the slide */
+    height: 350px;
+    width: auto;
+    justify-items: center;
 }
-
-/*!* Ensures that the image fits within the max size without cutting off *!*/
-/*.slick-cloned img, video{*/
-/*    height: 350px !important;*/
-/*    width: auto !important;*/
-/*    object-fit: contain !important;*/
-/*    display: block !important;*/
-/*    justify-self: center !important;*/
-/*}*/
-
 
 /* Optional: style the dot indicators for navigation */
 .slick-dots {
@@ -45,6 +33,14 @@
 
 .slick-dots li button:before {
     color: #000; /* Color for the navigation dots */
+}
+
+.slick-next {
+    padding-right: 5%;
+}
+
+.slick-prev {
+    padding-left: 2.5%;
 }
 
 .scrollable-description {

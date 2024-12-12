@@ -62,7 +62,7 @@ const MapComponent: React.FC = () => {
         const fileExtension = mediaUrl.split('.').pop()?.toLowerCase();
         if (['mp4', 'webm', 'ogg'].includes(fileExtension || '')) {
             return (
-                <video controls style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}>
+                <video controls style={{ maxWidth: '350px', maxHeight: '350px', objectFit: 'contain' }}>
                     <source src={mediaUrl} type={`video/${fileExtension}`} />
                     Your browser does not support the video tag.
                 </video>
@@ -72,7 +72,7 @@ const MapComponent: React.FC = () => {
             <img
                 src={mediaUrl}
                 alt="Media content"
-                style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
+                style={{ maxWidth: '350px', maxHeight: '350px', objectFit: 'contain' }}
             />
         );
     };
