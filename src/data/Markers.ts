@@ -11,8 +11,10 @@ export const markers = [
             'https://64.media.tumblr.com/99a98143068744bef5becb3335f11f32/54c4ceeeda7367ee-b5/s500x750/f214d8d29082e0f607763b534da502f621d62699.jpg', // Additional placeholder images
             '/assets/Biltmore-Ballroom-vid.mp4',
         ], // Array of image URLs
-        artists: "Captain Remo - Remo was a reggae artist who toured the U.S., Europe, and other continents during the 90’s. He emphasized world peace and love throughout his music, which draws a lot of comparisons to bands that speak on social justice issues such as Calle Trece. ",
         years: "TBD",
+        relevantLinks: [
+            "https://www.instagram.com/dubstuy/p/C6mRsnZOa9y/",
+        ]
         
     }
     ,
@@ -28,9 +30,13 @@ export const markers = [
         images: [
             'https://media.villagepreservation.org/wp-content/uploads/2023/09/12151408/181-2nd-Ave-1975.jpg', // Replace with relevant images or use placeholders
             'https://media.villagepreservation.org/wp-content/uploads/2023/09/12150923/1982-negrill-flier.jpg',
+            '/assets/negril-2.png',
         ],  // Array of image URLs
-        artists: "TBD",
-        years: "TBD",
+        
+        years: "September 1981 - April 1982 ",
+        relevantLinks: [
+            "https://www.villagepreservation.org/2023/09/13/hip-hops-2nd-birthplace-part-5-negril-nightclub/",
+        ]
         
     },
     {
@@ -42,22 +48,28 @@ export const markers = [
             '/assets/reggae-retro-vid.mp4',  // Replace with actual image path
             '/assets/reggae-retro-vid-2.mp4',
         ],
-        artists: "DJs playing dancehall, Bob Marley, Chronixx",
         years: "2003 - Present",
+        relevantLinks: [
+            "https://www.reggaeretronyc.com/",
+        ]
         
     },
     {
         position: [40.72085 ,-74.00464] as [number, number], // Approximate location for 750 Nostrand Ave, Brooklyn
         title: 'Reggae Lounge',
         location: '285 W Broadway, Manhattan, NY',
-        description: `This image displays another advertisement for a different reggae lounge located in New York City, quite literally titled “ReggaeLounge.”Thisplacewas located 285 West Broadway. The poster depicts figures walking on the beach with a horse or donkey included. This subtly hints that they are in a rural Jamaican setting, which has been a very common theme throughout all of the reggae music videos that we have watched in class. Reggae musicians love to connect to their roots and embrace, in many cases, the rural identity that started it all. This imagery could also emphasize themes of labor, rural struggles, and the dignity of ordinary people that exist within the country. In our class, we also learned that genres such as Mento have helped influence reggae. Mento was mostly popular amongst rural and poorer communities back in Jamaica, and farm life was much more common for them. These themes have remained relevant in modern reggae songs and have been passed down through generations as individuals from this culture cherish their homeland, while also recognizing their home in New York City. In the Despacito music video, for example, rural homelands and communities are emphasized, and the video is a modern version of these values. Furthermore, it is interesting to note that there is a ship leaving the coast on this poster. This is likely representative of the connection that Jamaicans, and other Caribbeans in general, have between their homeland and other places (such as New York City.) In general, this poster is a great example of the constant themes of identity and origin within the reggae genre, and a great advertisement by this 80’s lounge to draw in more customers.
+        description: `This image displays another advertisement for a different reggae lounge located in New York City, quite literally titled “ReggaeLounge.”This place was located 285 West Broadway. The poster depicts figures walking on the beach with a horse or donkey included. This subtly hints that they are in a rural Jamaican setting, which has been a very common theme throughout all of the reggae music videos that we have watched in class. Reggae musicians love to connect to their roots and embrace, in many cases, the rural identity that started it all. This imagery could also emphasize themes of labor, rural struggles, and the dignity of ordinary people that exist within the country. In our class, we also learned that genres such as Mento have helped influence reggae. Mento was mostly popular amongst rural and poorer communities back in Jamaica, and farm life was much more common for them. These themes have remained relevant in modern reggae songs and have been passed down through generations as individuals from this culture cherish their homeland, while also recognizing their home in New York City. In the Despacito music video, for example, rural homelands and communities are emphasized, and the video is a modern version of these values. Furthermore, it is interesting to note that there is a ship leaving the coast on this poster. This is likely representative of the connection that Jamaicans, and other Caribbeans in general, have between their homeland and other places (such as New York City.) In general, this poster is a great example of the constant themes of identity and origin within the reggae genre, and a great advertisement by this 80’s lounge to draw in more customers.
 `,
         images: [
             '/assets/reggae-lounge.png',
             'https://mylifeinconcert.com/wp-content/uploads/2014/03/Bad_Brains_Reggae_Lounge_1982.jpg',
         ],
-        artists: "TBD",
-        years: "TBD",
+        
+        years: "1982 - July 1983? (Renamed to The Island)",
+        relevantLinks: [
+            "https://digital.library.cornell.edu/catalog/ss:455511",
+            "https://www.nytimes.com/1982/02/26/style/new-clubs-rock-reggae-and-just-dancing.html",
+        ]
         
     },
     {
@@ -71,8 +83,10 @@ export const markers = [
             '/assets/bb-king(1).png',
             '/assets/bb-king-2.png'
         ],
-        artists: "Tarrus Riley",
         years: "May 1991 - April 29, 2018",
+        relevantLinks: [
+            "https://www.billboard.com/music/music-news/tarrus-riley-august-25-2009-new-york-bb-king-blues-club-267576/",
+        ]
         
     },
     {
@@ -82,12 +96,19 @@ export const markers = [
         description: `Bob Marley has performed in large, open spaces such as Central Park. Performances like these are reflective of the street and community cultures that much of Caribbean music has prioritized throughout its history. Bob Marley specifically performed at the 1975 Schaefer Music Festival in Central Park. The prices for this event were very inexpensive, going as low as one dollar. This only contributed to the widespread appeal for everyone to attend. Lee Jaffe, the only white member of the Wailers, played the harmonica in this performance, and it was one of his only live experiences with the rest of the band.  The mayor of New York City actually gave Marley a “key to the city,” a gift that symbolizes positive influence on the New York citizens. Within the older New York Times article from 1975, the reviewer explains how the band was accompanied by two female singers, which likely would have been uncommon at the time. Marley’s voice is actually described as not so emotionally powerful, and the journalist expresses their doubts about the potential success of the performance. They explain how the particular syncopation of reggae music, its duple meter, and its emphasis on Jamaican culture could have been questionable aspects when considering the wide appeal to diverse audiences. Ironically, this did not turn out to be the case. The author also mentioned how reggae music typically did covers during the time, which was what American audience members were used to. Our class learned about the mento genre, started by the Jolly Boys, which provided covers of popular songs through a reggae-lens. These covers have remained popular throughout the years, as evident by pieces such as “Rehab” by the Jolly Boys (which we learned about in class,) yet Bob Marley managed to introduce American audience members to a completely new type of reggae music that was unique to him. 
 `,
         images: [
-            'https://i.ytimg.com/vi/fW4St80b4BU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBZZQ1So2WEc558GOa_4PmJc7oi9g',
+            'https://legendaryreggae.com/wp-content/uploads/2012/02/shaeffer2.jpg',
+            'https://legendaryreggae.com/wp-content/uploads/2012/02/scan-2-2.jpg',
+            'https://legendaryreggae.com/wp-content/uploads/2012/02/bob_marley_by_steve_emberton01_website_image_ying_standard.jpg?w=1024&h=679',
+            'https://legendaryreggae.com/wp-content/uploads/2012/02/scan1-2.jpg',
             'https://upload.wikimedia.org/wikipedia/en/a/a0/Schaef.jpg',
             'https://upload.wikimedia.org/wikipedia/commons/c/c4/LARGE_AUDIENCE_AT_THE_SCHAEFER_BANDSTAND_IN_CENTRAL_PARK_DURING_A_CONCERT_BY_SINGER_JUDY_COLLINS_-_NARA_-_551670.jpg',
         ],
-        artists: "Bob Marley",
         years: "1967-1977",
+        relevantLinks: [
+            "https://www.youtube.com/watch?v=kBHpDzfLBpQ",
+            "https://legendaryreggae.com/2012/02/24/bob-marley-and-the-wailers-rock-central-park-live-in-nyc-1975/",
+            "https://www.nytimes.com/1975/06/20/archives/marley-wailers-dig-into-reggae-roots.html",
+        ]
         
     },
     {
@@ -100,8 +121,10 @@ export const markers = [
             'https://www.concertarchives.org/image_uploads/photo/image/420004/large_The_Village_Voice_-_June_5_1978.jpg',
             'https://i0.wp.com/worldmusicviews.com/wp-content/uploads/2022/06/526331_430440833665834_633769223_n.jpeg?resize=300%2C189&ssl=1',
         ],
-        artists: "Bob Marley & The Wailers",
         years: "1968 - Present",
+        relevantLinks: [
+            "https://worldmusicviews.com/bob-marley-and-the-wailers-kaya-1978-entered-madison-square-garden/",
+        ]
         
     },
     {
@@ -115,8 +138,13 @@ export const markers = [
             'https://enkismusicrecords.com/wp-content/uploads/2024/10/Lloyd-Bullwackie-Barnes-at-Wackies-Reggae-Studio-1.jpg',
             'https://static01.nyt.com/images/2009/04/13/nyregion/13reggae.span.jpg?quality=75&auto=webp',
         ],
-        artists: "TBD",
+        
         years: "1976 - Present (Change of Location)",
+        relevantLinks: [
+            "https://www.youtube.com/watch?v=TMLHsJjAQHc",
+            "https://www.nytimes.com/2020/01/05/arts/music/wackies-reggae-lloyd-barnes.html",
+            "https://enkismusicrecords.com/wackies-reggae-lloyd-barnes-biography/?srsltid=AfmBOopXqs0y2FBgPobx4ElIYsAwMWY4-2YYwQkRexH45s9PkVlj7xmK",
+        ]
         
     },
     {
@@ -126,10 +154,15 @@ export const markers = [
         description: `Andy’s Record Store, although closed, still remains very involved as they provide a scholarship for students interested in studying music. The studio was started by Hector and Roydale Anderson. At one point, this record store was responsible for up to 80 percent of reggae radio station programs within New York City. This was also the first store to import reggae records from Jamaica into the U.S. In recent years, the former store created a scholarship for minority high school students interested in pursuing musical studies at a higher level, which goes to show the impact that the store seeks to have by remaining influential within the local communities. 
 `,
         images: [
-            "/tbd.jpg",
+            "https://img1.wsimg.com/isteam/ip/4abfcd93-c947-48ba-be3e-a45f24ac1257/thumbnail.jpg/:/",
+            "https://img1.wsimg.com/isteam/ip/4abfcd93-c947-48ba-be3e-a45f24ac1257/IMG_2538.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1023,h:512,cg:true",
         ],
-        artists: "TBD",
-        years: "1970 - 1995",
+        
+        years: "1970 - 1995 (Still active in community)",
+        relevantLinks: [
+            "https://andysrecordstore.com/",
+
+        ]
 
     },
     {
@@ -139,10 +172,17 @@ export const markers = [
         description: `Jammyland was a hit reggae store within the New York City area up until 2008. The most helpful factor in this store’s rise to popularity was the fact that it resold very distinct and rare reggae records. This music store also draws connections to Wackie’s, the original record store that was established in the Bronx. Jammyland’s efforts are highly influential even to the Bronx reggae scene, where it has revitalized the music of Lloyd Barnes, the man who established Wackie’s. The reissue of Horace Andy’s Dance Hall Style, a classic Wackie’s recording, had become a customer favorite, reflecting how the store connects global reggae traditions with New York's unique contributions. Now, Jammyland is a cultural hub that embodies the essence of reggae and dub as art forms centered on innovation. The store pays homage to producers like King Tubby and Lee Perry, who transformed reggae into a musical art that emphasizes rhythmic expression. This store has also served as a physical and symbolic gathering place for reggae legends and even average enthusiasts, fostering a sense of community. Icons like Studio One founder Coxsone Dodd, dub pioneer Jah Shaka, and artists Sister Carol and Junior Reid have all visited the store or hung out within its walls. The store overall provided a sense of uniqueness to many reggae lovers and allowed the genre to become more retro. 
 `,
         images: [
+            "https://www.jammyland.com/Clive_Chin&Bertram_Brown-lg.jpg",
+            "https://www.jammyland.com/Congo_Ashanti_Roy-lg.jpg",
             "https://static01.nyt.com/images/2008/04/18/arts/18record03-650.jpg?quality=75&auto=webp&disable=upscale",
         ],
-        artists: "TBD",
+        
         years: "1993 - June 1st 2008",
+        relevantLinks: [
+            "https://www.jammyland.com/",
+            "https://www.amny.com/news/jammyland-is-jammed-with-classic-reggae-nuggets/",
+            "https://www.nytimes.com/2008/04/18/arts/music/18reco.html",
+        ]
 
     },
     {
@@ -157,8 +197,11 @@ export const markers = [
             "https://res.cloudinary.com/the-infatuation/image/upload/c_fill,w_750,ar_4:3,g_center,f_auto/cms/NoahDevereaux_Bars_LoversRock_10",
 
         ],
-        artists: "TBD",
+        
         years: "September 25, 2015 - Present",
+        relevantLinks: [
+            "https://www.bkmag.com/2015/08/26/inside-lovers-rock-bed-stuys-newest-rum-and-reggae-bar/",
+        ]
 
     },
 
@@ -166,7 +209,7 @@ export const markers = [
         position: [40.72182, -74.00860] as [number, number],
         title: 'Wetlands Preserve',
         location: '161 Hudson Street, Tribeca, NY',
-        description: `Located at 161 Hudson Street in Tribeca, Wetlands Preserve helped bring reggae to wider audiences. In alignment with Rastafarin values, rooted in respect for Earth, animal welfare, and community uplift- Wetlands Preserve functioned not only as a live music hub but also as an “environmental and social justice activism and education center.” By showing several reggae legends, such as Toots & The Maytals, Black Uhuru, Burning Spear, and Desmond Dekker, wetlands bridged the underground appeal of reggae to broader audiences.
+        description: `Located at 161 Hudson Street in Tribeca, Wetlands Preserve helped bring reggae to wider audiences. In alignment with Rastafarian values, rooted in respect for Earth, animal welfare, and community uplift- Wetlands Preserve functioned not only as a live music hub but also as an “environmental and social justice activism and education center.” By showing several reggae legends, such as Toots & The Maytals, Black Uhuru, Burning Spear, and Desmond Dekker, wetlands bridged the underground appeal of reggae to broader audiences.
         
         “Wetlands wasn't just another insulting New York Club. It was a secret society, a temporary autonomous zone, a late-night slacker’s sanctuary, a tripper's refuge, an all-ages hardcore haven…” - The village voice
         `,
@@ -176,8 +219,11 @@ export const markers = [
             'https://tribecacitizen.com/wp-content/uploads/2014/10/Wetlands-crop.png',
 
         ],
-        artists: "TBD",
+        
         years: "1989 - 2001",
+        relevantLinks: [
+            "https://wetlands-preserve.org/?page=AboutUS#:~:text=Wetlands%20Activism%20Collective%20was%20founded,center%20based%20in%20Manhattan%2C%20NYC",
+        ]
         
     },
 
@@ -196,8 +242,11 @@ export const markers = [
             'https://images.ctfassets.net/1aemqu6a6t65/54YXrpTgCgD4Kn5PLTtElc/37f65bdd22ee7f8289e6425541788089/Flatbush-Street-Flatbush-Brooklyn-NYC-Photo-Vincent-Tullo-.jpg',
 
         ],
-        artists: "TBD",
+        
         years: "N/A",
+        relevantLinks: [
+            "",
+        ]
 
     },
     // Add more markers here...

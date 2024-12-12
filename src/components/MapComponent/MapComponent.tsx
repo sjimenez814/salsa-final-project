@@ -20,8 +20,8 @@ interface MarkerData {
     images: string[];
     location: string;
     description: string;
-    artists: string;
     years: string;
+    relevantLinks: string[]; // Add relevant links as an array of strings
     position: [number, number];
 }
 
@@ -39,10 +39,8 @@ const InitializeMap: React.FC<{ mapRef: React.MutableRefObject<L.Map | null> }> 
 const MapComponent: React.FC = () => {
     const mapRef = useRef<L.Map | null>(null);
 
-    // State to store the index of the selected marker
     const [selectedMarker, setSelectedMarker] = useState<MarkerData | null>(null);
 
-    // Create a custom icon for active and inactive markers
     const createCustomIcon = (isActive: boolean) =>
         L.divIcon({
             className: `custom-marker ${isActive ? 'active' : ''}`,
@@ -79,6 +77,18 @@ const MapComponent: React.FC = () => {
         );
     };
 
+    const renderRelevantLinks = (links: string[]) => (
+        <ul className="relevant-links">
+            {links.map((link, idx) => (
+                <li key={idx}>
+                    <a href={link} target="_blank" rel="noopener noreferrer">
+                        {link}
+                    </a>
+                </li>
+            ))}
+        </ul>
+    );
+
     return (
         <div style={{ display: 'flex', height: '100vh' }}>
             {/* Sidebar */}
@@ -92,7 +102,14 @@ const MapComponent: React.FC = () => {
                             ))}
                         </Slider>
                         <p><strong>Location:</strong> {selectedMarker.location}</p>
+                        <p><strong>Years Active:</strong> {selectedMarker.years}</p>
                         <div className="scrollable-description">{selectedMarker.description}</div>
+                        {selectedMarker.relevantLinks && selectedMarker.relevantLinks.length > 0 && (
+                            <div className="relevant-links-section">
+                                <h3>Relevant Links:</h3>
+                                {renderRelevantLinks(selectedMarker.relevantLinks)}
+                            </div>
+                        )}
                     </div>
                 ) : (
                     <p>Select a marker to see details</p>
@@ -127,13 +144,11 @@ const MapComponent: React.FC = () => {
                                     if (mapRef.current) {
                                         mapRef.current.setView(marker.position, 16, { animate: true });
                                     }
-                                    setSelectedMarker(marker); // Update the sidebar content
+                                    setSelectedMarker(marker);
                                 },
                             }}
                         />
                     ))}
-
-
                 </MapContainer>
             </div>
         </div>

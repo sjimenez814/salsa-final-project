@@ -37,3 +37,27 @@
     font-weight: bold;
     color: black;
 }
+
+.relevant-links {
+    list-style: disc;
+    padding: 0;
+}
+
+.relevant-links li {
+    margin-bottom: 5px;
+}
+
+.relevant-links a {
+    color: #571ee8;
+    text-decoration: #61dafb;
+}
+
+.relevant-links a:hover {
+    text-decoration: underline;
+}
+
+.relevant-links-section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
