@@ -1,0 +1,35 @@
+.custom-marker {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translateY(0);
+    animation: none;
+}
+
+.custom-marker.active .icon-inner {
+    animation: bounce 2s infinite;
+    width: 80px;  /* Resize the inner icon */
+    height: 80px; /* Resize the inner icon */
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+.icon-inner {
+    width: 100%;  /* Make the icon fill the entire marker */
+    height: 100%; /* Make the icon fill the entire marker */
+    background-image: url('/public/assets/jamaica.png'); /* Corrected path to the image */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
