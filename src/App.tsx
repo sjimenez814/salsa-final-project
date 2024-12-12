@@ -5,8 +5,18 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import AppRoutes from "./routes/AppRoutes";
 
-const App: React.FC = () => {
-  return <AppRoutes />;
-}
+
+const App = () => {
+    return (
+        <div className="page-container">
+            <header className="header-banner">
+                The Reggae Route
+            </header>
+            <div className="map-container">
+                <AppRoutes />
+            </div>
+        </div>
+    );
+};
 
 export default App;

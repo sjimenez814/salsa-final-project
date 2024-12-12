@@ -41,3 +41,33 @@ h1 {
     transform: rotate(360deg);
   }
 }
+
+/* styles.css */
+.header-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: cursive;
+  color: black;
+  background: repeating-linear-gradient(
+          to bottom,
+          #00843E 0%, #00843E 33.33%, /* Green stripe */
+          #FFD700 33.33%, #FFD700 66.66%, /* Yellow stripe */
+          #E31C23 66.66%, #E31C23 100% /* Red stripe */
+  ); /* Jamaican colors */
+  padding: 20px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.map-container {
+  flex-grow: 1;
+}
+
