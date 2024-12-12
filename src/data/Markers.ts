@@ -245,7 +245,7 @@ export const markers = [
         
         years: "N/A",
         relevantLinks: [
-            "",
+            "https://ecommons.cornell.edu/server/api/core/bitstreams/8f3bc8b5-8d85-4c62-9a97-0c6fa746ae8e/content",
         ]
 
     },
