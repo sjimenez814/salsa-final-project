@@ -22,7 +22,6 @@ interface MarkerData {
     description: string;
     artists: string;
     years: string;
-    impact: string;
     position: [number, number];
 }
 
