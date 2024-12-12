@@ -11,7 +11,7 @@ export const markers = [
             'https://64.media.tumblr.com/99a98143068744bef5becb3335f11f32/54c4ceeeda7367ee-b5/s500x750/f214d8d29082e0f607763b534da502f621d62699.jpg', // Additional placeholder images
             '/assets/Biltmore-Ballroom-vid.mp4',
         ], // Array of image URLs
-        years: "TBD",
+        years: "1970s - 1995?",
         relevantLinks: [
             "https://www.instagram.com/dubstuy/p/C6mRsnZOa9y/",
         ]
