@@ -8,7 +8,7 @@ import '../../styles/Sidebar.css'; // Custom styles for the sidebar
 import '../../styles/MarkerAnimation.css';
 import { markers } from '../../data/Markers';
 
-const NYC_POSITION: L.LatLngExpression = [40.7128, -74.0060];
+const NYC_POSITION: L.LatLngExpression = [40.7438, -74.0060];
 const NYC_BOUNDS: L.LatLngBoundsLiteral = [
     [40.515390956419395, -74.08784354303535],
     [40.98203035591099, -73.67279818020539],
@@ -101,7 +101,7 @@ const MapComponent: React.FC = () => {
             <div style={{ flex: 1 }}>
                 <MapContainer
                     center={NYC_POSITION}
-                    zoom={10}
+                    zoom={11}
                     style={{ height: '100%', width: '100%' }}
                     maxBounds={NYC_BOUNDS}
                     maxBoundsViscosity={1.0}
@@ -123,7 +123,7 @@ const MapComponent: React.FC = () => {
                             eventHandlers={{
                                 click: () => {
                                     if (mapRef.current) {
-                                        mapRef.current.setView(marker.position, 15, { animate: true });
+                                        mapRef.current.setView(marker.position, 16, { animate: true });
                                     }
                                     setSelectedMarker(marker); // Update the sidebar content
                                 },
